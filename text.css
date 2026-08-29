@@ -1,32 +1,65 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-
-body{
+.main-image{
+    width: 100%;
     height: 100dvh;
-    background:linear-gradient(#feac5e,#c779d0,#4bc0c8);
+    position: relative;
+    background-image: linear-gradient(rgba(255,255,255,0.4),rgba(255, 255, 255, 0.4)), url("laptop\ wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    position: absolute;
+    left: 20px;
+    right: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    font-style: ᴀᴍᴇʟɪᴀ;
+
 }
 
+.menu{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    color: #4e1711;
 
-body .box{
-    background-color: aliceblue;
-    width: 90%;
-    border-radius: 20px;
-    padding: 20px;
 }
 
-
-body .box h1::after{
-    content: 'I’m Priya. ';
-    color: red;
+.about{
+     padding-top: 10px;
+    text-align: center;
+    color: black;
+    padding-top: 300px;
+    padding-left: 60px;
+    
 }
 
-body .box p{
+.about p{
     margin-top: 10px;
-    color: gray;
+    color: #5a0e05;
+    font-style: italic;
+    font-size: 20px;
+    
 }
+
+.about button{
+     position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: #9e7da1;
+}
+
+.about button:hover{
+     color: rgb(168, 68, 31);
+
+}
+

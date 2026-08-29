@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    height: 100dvh;
+    background:linear-gradient(#feac5e,#c779d0,#4bc0c8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body .box{
+    background-color: aliceblue;
+    width: 90%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+body .box h1::after{
+    content: 'I’m Priya. ';
+    color: red;
+}
+
+body .box p{
+    margin-top: 10px;
+    color: gray;
+}
